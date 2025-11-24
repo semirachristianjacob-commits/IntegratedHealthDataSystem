@@ -1,5 +1,3 @@
-
-
 public class Outpatient extends Patient {
     private String appointmentDate;
 
@@ -18,5 +16,3 @@ public class Outpatient extends Patient {
     }
 
   }
-
-
