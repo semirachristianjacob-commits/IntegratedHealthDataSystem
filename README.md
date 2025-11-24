@@ -21,9 +21,6 @@ It stores and manages data records that allows adding different types of patient
 - Subclasses implement the specific details, hiding unnecessary complexity from the rest of the program.
 
 ## Program Structure
-### Main Classes and Roles
-
- Class  Description 
 
  - **Patient:**  Base class for shared patient attributes. 
  - **Inpatient:**  Subclass storing ward, room, and admission details. 
