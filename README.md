@@ -16,3 +16,13 @@ It stores and manages data records that allows adding different types of patient
 ### Abstraction
 - The abstract parent class defines the essential structure and behavior of a patient.
 - Subclasses implement the specific details, hiding unnecessary complexity from the rest of the program.
+## Program Structure
+### Main Classes and Roles
+
+| Class | Description |
+|-------|-------------|
+| **Patient** | Base class for shared patient attributes. |
+| **Inpatient** | Subclass storing ward, room, and admission details. |
+| **Outpatient** | Subclass storing appointment and doctor details. |
+| **PatientManager** | Handles all CRUD operations for patient records. |
+| **Main** | Menu interface and program entry point. |
