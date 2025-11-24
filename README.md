@@ -44,6 +44,15 @@ It stores and manages data records that allows adding different types of patient
 ```
 ## How to run Program
 
+1. Open the terminal/command prompt
+2. Navigate to the folder where the code is: *Ex*
+```bash
+PS D:\Health Data System\IntegratedHealthDataSystem> CD MainSystem
+```
+3. Run the Program:
+```bash
+PS D:\Health Data System\IntegratedHealthDataSystem\MainSystem> Java Main.java
+```
 
 ## Sample Output
 This is how the program looks like:
