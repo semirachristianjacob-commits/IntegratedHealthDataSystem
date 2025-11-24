@@ -158,6 +158,7 @@ Aniel, Clynt Xeus Gabriel G. (24-06970@g.batstate-u.edu.ph)
 Melanay, Rency James I. (24-05189@g.batstate-u.edu.ph)
 
 Almarez, Jeanno Benedick A. (24-09622@g.batstate-u.edu.ph)
+
 **Acknowledgement**
 - Instructor   
 - Appriciation to fellow members
