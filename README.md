@@ -29,13 +29,51 @@ It stores and manages data records that allows adding different types of patient
  - **Main:**  Menu interface and program entry point. 
 
 ### Text-Based Class Diagram
-            [ Patient ]
-        /                   \
- [ Inpatient ]          [ Outpatient ]
+           +-----------------------+
+|       Patient         |  (Base Class)
++-----------------------+
+| - patientID           |
+| - name                |
+| - age                 |
+| - diagnosis           |
++-----------------------+
+| + displayInfo()       |
+| + getters/setters     |
++-----------------------+
+             ^
+             |
+     -----------------
+     |               |
+     v               v
++-------------------+      +--------------------+
+|     Inpatient     |      |     Outpatient     |
++-------------------+      +--------------------+
+| - wardNumber      |      | - appointmentDate  |
+| - admissionDate   |      | - doctorAssigned   |
+| - roomNumber      |      |                    |
++-------------------+      +--------------------+
+| + displayInfo()   |      | + displayInfo()    |
++-------------------+      +--------------------+
 
-            [ PatientManager ]
-                    |
-                manages
-                    |
-                [ Patient ]
+                ▲
+                |
+       +-------------------+
+       |  PatientManager   |
+       +-------------------+
+       | - patientsList[]  |
+       +-------------------+
+       | + addPatient()    |
+       | + updatePatient() |
+       | + searchPatient() |
+       | + displayAll()    |
+       +-------------------+
+
+                ▲
+                |
+       +-------------------+
+       |       Main        |
+       +-------------------+
+       | + mainMenu()      |
+       | + main()          |
+       +-------------------+
 
