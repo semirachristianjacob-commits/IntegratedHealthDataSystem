@@ -42,7 +42,8 @@ It stores and manages data records that allows adding different types of patient
 
 **1. Download or clone the project:**
 
-git clone https://github.com/your-username/Patient-Record-Management-System.git
+--- git clone https://github.com/your-username/Patient-Record-Management-System.git
+
 **2. Open the project folder:**
 
 cd Patient-Record-Management-System/src
@@ -50,6 +51,7 @@ cd Patient-Record-Management-System/src
 **3. Compile all Java files:**
 
 javac *.java
+
 **4. Run the program:**
 
 java Main
