@@ -43,11 +43,11 @@ It stores and manages data records that allows adding different types of patient
 
 
 **1. Download or clone the project:**
-```
+```bash
 git clone https://github.com/your-username/IntegratedHealthManagementSystem.git
 ```
 **2. Open the project folder:**
-```
+```bash
 cd Patient-Record-Management-System/src
 ```
 **3. Compile all Java files:**
