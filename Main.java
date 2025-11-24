@@ -30,3 +30,39 @@ public class Main {
 
         } while (choice != 5);
     }
+    private static void addInpatient(Scanner sc) {
+        System.out.print("ID: ");
+        String id = sc.nextLine();
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Age: ");
+        int age = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Diagnosis: ");
+        String diagnosis = sc.nextLine();
+        System.out.print("Room Number: ");
+        String room = sc.nextLine();
+
+        patients[count++] = new Inpatient(id, name, age, diagnosis, room);
+        System.out.print("Inpatient added!");
+    }
+     private static void addOutpatient(Scanner sc) {
+        System.out.print("ID: ");
+        String id = sc.nextLine();
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Age: ");
+        int age = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Diagnosis: ");
+        String diagnosis = sc.nextLine();
+        System.out.print("Appointment Date: ");
+        String date = sc.nextLine();
+
+        patients[count++] = new Outpatient(id, name, age, diagnosis, date);
+        System.out.print("Outpatient added!");
+     }
+    private static void viewAll {
+        
+    }
+}
