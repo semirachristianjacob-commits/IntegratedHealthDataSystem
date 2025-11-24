@@ -25,10 +25,10 @@ It stores and manages data records that allows adding different types of patient
 
  Class  Description 
 
- **Patient**  Base class for shared patient attributes. 
- **Inpatient**  Subclass storing ward, room, and admission details. 
- **Outpatient**  Subclass storing appointment and doctor details. 
- **PatientManager**  Handles all CRUD operations for patient records. 
- **Main**  Menu interface and program entry point. 
+ - **Patient:**  Base class for shared patient attributes. 
+ - **Inpatient:**  Subclass storing ward, room, and admission details. 
+ - **Outpatient:**  Subclass storing appointment and doctor details. 
+ - **PatientManager:**  Handles all CRUD operations for patient records. 
+ - **Main:**  Menu interface and program entry point. 
 
 ### Text-Based Class Diagram
