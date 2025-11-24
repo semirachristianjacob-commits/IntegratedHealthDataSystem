@@ -29,6 +29,7 @@ It stores and manages data records that allows adding different types of patient
  - **Main:**  Menu interface and program entry point. 
 
 ### Text-Based Class Diagram
+```
          Patient
     ├── Inpatient
     └── Outpatient
@@ -38,9 +39,8 @@ It stores and manages data records that allows adding different types of patient
 
     Main
     └── runs the menu and calls PatientManager
-
+```
 ## How to run Program
-
 
 **1. Download or clone the project:**
 ```bash
@@ -51,10 +51,10 @@ git clone https://github.com/your-username/IntegratedHealthManagementSystem.git
 cd Patient-Record-Management-System/src
 ```
 **3. Compile all Java files:**
-```
+```bash
 javac *.java
 ```
 **4. Run the program:**
-```
+```bash
 java Main
 ```
