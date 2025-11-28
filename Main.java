@@ -24,7 +24,7 @@ public class Main {
                 case 2 -> addOutpatient(sc);
                 case 3 -> viewAll();
                 case 4 -> searchById(sc);
-                case 5 -> System.out.println("Goodbye!");
+                case 5 -> System.out.println("Code Exited!");
                 default -> System.out.println("Invalid choice!");
             }
 
