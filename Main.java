@@ -44,7 +44,7 @@ public class Main {
         String room = sc.nextLine();
 
         patients[count++] = new Inpatient(id, name, age, diagnosis, room);
-        System.out.println("Inpatient added!");
+        System.out.println("\nInpatient added!");
     }
 
     private static void addOutpatient(Scanner sc) {
