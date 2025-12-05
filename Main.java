@@ -20,12 +20,18 @@ public class Main {
             sc.nextLine();
 
             switch (choice) {
-                case 1 -> addInpatient(sc);
-                case 2 -> addOutpatient(sc);
-                case 3 -> viewAll();
-                case 4 -> searchById(sc);
-                case 5 -> System.out.println("Code Exited!");
-                default -> System.out.println("Invalid choice!");
+                case 1: addInpatient(sc);
+                    break;
+                case 2: addOutpatient(sc);
+                    break;
+                case 3: viewAll();
+                    break;
+                case 4: searchById(sc);
+                    break;
+                case 5: System.out.println("Goodbye!");
+                    break;
+                default:
+                     System.out.println("Invalid choice!");
             }
 
         } while (choice != 5);
